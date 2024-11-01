@@ -1,0 +1,45 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #90cde7;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: white;
+    margin: 0 0.5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+main h2, p{
+    padding: 1rem;
+}
+button{
+    margin: 2rem 0.5rem 0 0.5rem;
+    border: none;
+    padding: 0.8rem 1rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.ingredienti{
+    background-color: rgb(10, 102, 10);
+}
+.aggiunte{
+    background-color: rgb(161, 161, 15);
+}
+.impasti{
+    background-color: rgb(126, 16, 16);
+}
+.completa{
+    background-color: rgb(14, 14, 133);
+}

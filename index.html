@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h2>Pizza generator</h2>
+        <p>
+            "Vorrei una pizza con 
+            <span id="ingrediente">___</span>, 
+            con aggiunta di <span id="aggiunta">___</span>
+            e impasto <span id="impasto">___</span>."
+        </p>
+        <div>
+            <button 
+            class="ingredienti"
+            onclick="generaIngrediente()">
+            Ingredienti
+            </button>
+
+            <button 
+            class="aggiunte" 
+            onclick="generaAggiunta()">
+            Aggiunte
+            </button>
+
+            <button 
+            class="impasti"
+            onclick="generaImpasto()">
+            Impasti
+            </button>
+
+            <button 
+            class="completa"
+            onclick="generaTutto()">
+            Pizza completa
+            </button>
+        </div>
+    </main>
+</body>
+</html>
